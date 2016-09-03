@@ -27,7 +27,7 @@ Mudbus Mb;     //used with ether
 
 void setup() 
 {
-  delay(10000); // not really needed but provides starts stability
+  delay(1000); // not really needed but provides starts stability
   Serial.begin(9600);
   Serial.println("emonTX Shield CT123 Voltage Serial and Modbus example"); 
   Serial.println("OpenEnergyMonitor.org");
@@ -98,5 +98,5 @@ void loop()
     
   // Available properties: ct1.realPower, ct1.apparentPower, ct1.powerFactor, ct1.Irms and ct1.Vrms
 
-  delay(5000);
+  delay(4000);
 }
